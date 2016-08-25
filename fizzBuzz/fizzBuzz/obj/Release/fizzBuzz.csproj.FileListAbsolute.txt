@@ -1,0 +1,5 @@
+C:\Users\matt\Desktop\Projects\fizzBuzz\fizzBuzz\bin\Release\fizzBuzz.exe.config
+C:\Users\matt\Desktop\Projects\fizzBuzz\fizzBuzz\bin\Release\fizzBuzz.exe
+C:\Users\matt\Desktop\Projects\fizzBuzz\fizzBuzz\bin\Release\fizzBuzz.pdb
+C:\Users\matt\Desktop\Projects\fizzBuzz\fizzBuzz\obj\Release\fizzBuzz.exe
+C:\Users\matt\Desktop\Projects\fizzBuzz\fizzBuzz\obj\Release\fizzBuzz.pdb

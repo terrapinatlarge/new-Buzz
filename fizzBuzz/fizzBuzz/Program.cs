@@ -10,6 +10,9 @@ using System.Threading;
         A simple solution to the classic problem. for values that are deviable by three, they will be 
          replaced by fizz, values deviable by five will replaced by buzz, and any number that satisfies
          both conditions will be replaced by FizBuzz
+
+
+        8/26/16 (PUSHED UPDATE) program now takes a user defined number as the upper limit of Enumerable.Range.
      */
 
 namespace fizzBuzz
@@ -18,9 +21,10 @@ namespace fizzBuzz
     { 
         public static void Main(string[] args)
         {
+            Console.WriteLine("please enter a number for the FizzBuzz Machine");
+            int usrInput = Convert.ToInt32(Console.ReadLine());
 
-
-            IEnumerable<int> seq = Enumerable.Range(1, 100); //getting the sequence of numbers.
+            IEnumerable<int> seq = Enumerable.Range(1, usrInput); //getting the sequence of numbers.
 
             foreach (int element in seq)
             {
@@ -52,5 +56,6 @@ namespace fizzBuzz
             Console.ReadLine(); //Used only to view the final results.
 
         }
+
     }
 }
